@@ -1,0 +1,279 @@
+* {margin: 0; padding: 0;}
+header {
+background-color: #171717;
+color: #fff;
+}
+p, h3 {
+letter-spacing: 2px;
+}
+.title {
+margin: 48px 0 0 0;
+text-transform: uppercase;
+}
+.logo {
+height: 50px;
+padding: 2px 0px;}
+.icon-bar {
+background-color:#fff;
+}
+li a {
+color: #fff;
+text-transform: uppercase;
+}
+li a:hover {
+color: #000;
+}
+.header-content{
+position: relative;
+background-color: #444444;
+color: #fff;
+height: 500px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.content-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.carousel-img, .carousel-img1, .carousel-img2{
+height: 500px;
+background-position: center;
+background-size: cover;
+
+text-align: center;
+padding: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+.carousel-img {
+background-image: url("images/indexCarousel/index-carousel-img1.jpg");
+}
+.carousel-img1 {
+background-image: url("images/indexCarousel/index-carousel-img2.jpg");
+}
+.carousel-img2 {
+background-image: url("images/indexCarousel/index-carousel-img3.jpg");
+}
+.sub-columns {
+height: 360px;
+color: black;
+margin: 30px 0 0 0;
+border-radius: 5px;
+}
+
+.hover {
+overflow: hidden;
+position: relative;
+padding-bottom: 60%;
+}
+
+.hover-overlay {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 90;
+transition: all 0.4s;
+}
+
+.hover img {
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+transition: all 0.3s;
+}
+
+.hover-content {
+position: relative;
+z-index: 99;
+}
+
+.navbar-toggler-icon:hover, .navbar-toggler:hover {
+  background-color: #444444;
+  transition: background-color ease-in 0.1s;
+}
+.navbar-toggler-icon:focus, .navbar-toggler:focus {
+  box-shadow: none;
+  background-color: #444444;
+}
+
+/* POP THIS WEEK ============================== */
+
+.hover-1 img {
+  width: 105%;
+  position: absolute;
+  top: 0;
+  left: -5%;
+  transition: all 0.3s;
+
+}
+
+.hover-1-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transition: all 0.4s;
+}
+
+.hover-1 .hover-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.hover-1-description {
+  transform: translateY(0.5rem);
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.hover-1:hover .hover-1-content {
+  bottom: 2rem;
+}
+
+.hover-1:hover .hover-1-description {
+  opacity: 1;
+  transform: none;
+}
+
+.hover-1:hover img {
+  left: 0;
+}
+
+.hover-1:hover .hover-overlay {
+  opacity: 0;
+}
+
+/* ABOUT STYLES */
+#about-container {
+  margin: 18px 0 0 0;
+}
+
+.about-background {
+  background-image: url("images/MTechZone/Staff.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: filter ease-in 0.2s;
+  filter: grayscale(100%);
+}
+
+.about-background:hover {
+  filter: grayscale(0);
+}
+
+.about-text {
+  display: flex;
+  align-items: center;
+  text-align: center; 
+  flex-direction: column;
+  justify-content: center;
+  line-height: 2;
+}
+
+.col-md-12 > iframe{
+  height: 360px;
+  color: black;
+  margin: 30px 0 0 0;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 0 0 10px #444444;
+}
+
+
+/* footer */
+.footer_logo{
+width: auto;
+height: 73px;
+}
+.text-muted{
+color: #ffffff!important;
+}
+footer{
+background-color: #171717;
+}
+.container-fluid{
+  padding: 0px 0px 0px 0px;
+}
+.mb-0{
+  padding: 0px 0px 0px 15px;
+}
+.my-4{
+  margin-bottom: 0rem!important;
+}
+/* footer */
+
+#about-link{
+  display: block;
+  height: 381.594px;
+  width: 636px;
+  max-height: 381.594px;
+  max-width: 636px;
+}
+
+
+/* MENU STYLES */
+
+.menu-header {
+  color: black;
+  padding: 25px 25px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.menu-img-1, .menu-img-2, .menu-img-3, .menu-img-4 {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.menu-img-1 {
+  background-image: url("images/MTechZone/highend.jpg");
+}
+
+.menu-img-2 {
+  background-image: url("images/MTechZone/midend.jpg");
+}
+
+.menu-img-3 {
+  background-image: url("images/MTechZone/lowend.jpeg");
+}
+
+.menu-img-4 {
+  background-image: url("images/MTechZone/peripherals.jpg");
+}
+.desc-columns {
+color: black;
+margin: 30px 0 0 0;
+}
+
+.alt-row {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.alt-desc {
+  text-align: right;
+}
+
+.btn-dark:hover, .btn-dark:focus {
+  background-color: #32CD32;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 991px) {
+  .alt-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .alt-desc {
+    text-align: left;
+  }
+}
